@@ -1,5 +1,5 @@
-import { arrayCubeRootToJson } from './arrayCubeRootToJson';
-
+// import { arrayCubeRootToJson } from './arrayCubeRootToJson';
+arrayCubeRootToJson = require('./arrayCubeRootToJson')
 describe('arrayCubeRootToJson', () => {
   it('find cube root of every element of array and return it as A json', () => {
     expect(arrayCubeRootToJson([27, 64, 125])).toMatchObject({ '27': 3, '64': 4, '125': 5 });
